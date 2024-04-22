@@ -1,4 +1,4 @@
-<p>Soal</p>
+<p>Soal Test Psychology</p>
     <br>
     <table>
     <tr>

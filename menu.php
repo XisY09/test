@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         *{
             margin:0px;
@@ -59,14 +60,17 @@
                 <p>jabatan</p>
             </div>
             <div>
+                <img src="asset/logo.png" alt="" style="width:150px; margin-right:550px">
+            </div>
+            <div>
                 <button type="button" style="font-size:15px; margin-right:10px" >Logout</button>
             </div>
             </header>
     <div class="menu-container">
         <h2>Test</h2>
         <ul style="padding:0px 30px 0px 30px">
-            <li class="menu-item"><a href="p1.php" class="menu-link">Psychology Test</a></li>
-            <li class="menu-item"><a href="menu2.php" class="menu-link">Fluid Intelligence Test</a></li>
+            <li class="menu-item"><a href="petunjuk_p1.php" class="menu-link">Psychology Test</a></li>
+            <li class="menu-item"><a href="petunjuk_epps.php" class="menu-link">Fluid Intelligence Test</a></li>
             <li class="menu-item"><a href="menu3.php" class="menu-link">Menu 3</a></li>
             <li class="menu-item"><a href="menu4.php" class="menu-link">Menu 4</a></li>
         </ul>

@@ -1,6 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+*{
+    margin:0px;
+    padding:0px
+}
+
+header {
+    display:flex;
+}
+/* CSS untuk styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.menu-container {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.menu-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.menu-link:hover {
+    color: #0066cc;
+}
+button{
+    background-color: transparent;
+background-repeat: no-repeat;
+border: none;
+cursor: pointer;
+overflow: hidden;
+outline: none;
+}
+</style>
+<div class="menu-container">
 <p>Soal Test Psychology</p>
     <br>
-    <table>
     <tr>
         <label for="ops">1.  Lemah lembut   
         <select id="ops">
@@ -667,18 +722,11 @@
     </tr>
     <br>
     <br>
-    </table>
+  
+    </div>
     <tr>
-            <td><input type="submit" name="spn" value="simpan"></td>
+            <td><input type="submit" name="" value="simpan"></td>
      </tr>
 </form>
 </body>
-
-<?php
-if(isset($_POST['spn'])){
-    $nama = $_POST['nama'];
-    $nim = $_POST['nim'];
-    $alamat = $_POST['alamat'];
-    $jabatan = $_POST['jabatan'];
-}
-?>
+</html>

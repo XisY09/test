@@ -77,3 +77,12 @@
         </form>
 </body>
 </html>
+
+<?php
+if(isset($_POST['login'])){
+    $nama = $_POST['nama'];
+    $nim = $_POST['nim'];
+    $alamat = $_POST['alamat'];
+    $jabatan = $_POST['jabatan'];
+}
+?>

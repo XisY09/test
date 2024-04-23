@@ -53,7 +53,7 @@ tr:hover {background-color: coral;}
 <body>
 
 <form action="" method="POST" name="form1">
-    <div class="menu-container">
+    <div class="menu-container" style="line-height: 1.5;">
     <b>FORM</b>
     <td><h3>PEDOMAN</h3></td>
     <td><p>Pada halaman-halaman berikut, Saudara akan membaca sejumlah pertanyaan- pertanyaan dalam pasangan tentang pelbagai
@@ -65,6 +65,7 @@ tr:hover {background-color: coral;}
     <p>A. Saya suka berbicara tentang diri saya dengan orang lain</p>   
     <p>B. Saya suka bekerja untuk suatu tujuan yang telah saya tentukan bagi diri saya.</p>
     <p>Yang manakah dari dua pernyataan tersebut., lebih menggambarkan diri saudara ?<p>
+        <br>    
     </tr>
     <tr>
     <td>
@@ -76,6 +77,7 @@ tr:hover {background-color: coral;}
     <p>Mungkin Saudara suka 'A' dan 'B' kedua-duanya. Dalam hal ini Saudara tetap diharapkan akan memilih. Dan hendaknya Saudara memilih
             yang 'lebih' Saudara suka.
     </p>
+    <br>
    <p>
         Sekiranya Saudara tidak suka kedua-duanya, hendaknya Saudara memilih yang Saudara tidak 'terlalu' tidak suka.
    </p>

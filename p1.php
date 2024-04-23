@@ -97,7 +97,7 @@ outline: none;
         </select>
     </tr>
     </div>
-    <tr>
+    <div class="" style="margin-bottom:15px;">
         <label for="ops">2.Ramah Kepada Orang Lain   
         <select id="ops">
         <option>..</option>
@@ -122,10 +122,8 @@ outline: none;
             <option value="m">M</option>
             <option value="l">L</option>
         </select>
-    </tr>
-    <br>
-    <br>
-    <tr>
+    </div>
+    <div class="" style="margin-bottom:15px;">
         <label for="ops">3. Mengikuti gagasan orang lain  
         <select id="ops">
         <option>..</option>
@@ -150,9 +148,7 @@ outline: none;
             <option value="m">M</option>
             <option value="l">L</option>
         </select>
-    </tr>
-    <br>
-    <br>
+    </div>
     <tr>
         <label for="ops">4. Berusaha menyenangkan orang lain
         <select id="ops" mmultiple>

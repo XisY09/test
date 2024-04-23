@@ -69,7 +69,7 @@ outline: none;
 <div class="menu-container">
 <p>Soal Test Psychology</p>
     <br>
-    <div class="";>
+    <div class="" style="margin-bottom:15px;">
     <tr>
         <label for="ops">1.  Lemah lembut   
         <select id="ops">

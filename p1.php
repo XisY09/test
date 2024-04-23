@@ -53,9 +53,23 @@ overflow: hidden;
 outline: none;
 }
 </style>
+<header style="margin:10px 0 0 20px";>
+            <div style="flex:15">    
+                <h2>Hi,...</h2>
+                <p>jabatan</p>
+            </div>
+            <div>
+                <img src="asset/logo.png" alt="" style="width:150px; margin-right:550px">
+            </div>
+            <div>
+                <button type="button" style="font-size:15px; margin-right:10px" >Logout</button>
+            </div>
+            </header>
+<form action="">
 <div class="menu-container">
 <p>Soal Test Psychology</p>
     <br>
+    <div class="";>
     <tr>
         <label for="ops">1.  Lemah lembut   
         <select id="ops">
@@ -82,8 +96,7 @@ outline: none;
             <option value="l">L</option>
         </select>
     </tr>
-    <br>
-    <br>
+    </div>
     <tr>
         <label for="ops">2.Ramah Kepada Orang Lain   
         <select id="ops">
@@ -722,8 +735,8 @@ outline: none;
     </tr>
     <br>
     <br>
-  
     </div>
+    </form>
     <tr>
             <td><input type="submit" name="" value="simpan"></td>
      </tr>

@@ -48,7 +48,7 @@
     </style>
 </head>
 <body>
-        <form action="menu.php" class="menu-container">
+        <form action="form.php" class="menu-container" method="POST">
             <table style="margin:auto;" >
                 <tr class="menu-item">
                     <td>NO WA</td>
@@ -72,14 +72,14 @@
                 </tr>
             </table>
             <div class="tombol">
-                <button>Submit</button>
+                <input type="submit" name="form" value="Login">
             <div>
         </form>
 </body>
 </html>
 
 <?php
-if(isset($_POST['login'])){
+if(isset($_POST['form'])){
     $nama = $_POST['nama'];
     $nim = $_POST['nim'];
     $alamat = $_POST['alamat'];

@@ -4,7 +4,7 @@ session_start();
 $host_db = "localhost";
 $user_db = "root";
 $pass_db = "";
-$name_db = "test";
+$name_db = "project";
 $koneksi = mysqli_connect ($host_db,$user_db,$pass_db,$name_db);
 
 $err = "";
@@ -13,7 +13,7 @@ $ingataku = "";
 
 // Cek apakah pengguna sudah login atau belum
 if(isset($_SESSION['username'])) {
-    header("Location: menu.php");
+    header("Location: form.php");
     exit;
 }
 
@@ -24,7 +24,7 @@ if(isset($_POST['login'])) {
     $password = $_POST['password'];
     
     // Contoh: Validasi username dan password
-    if($username === 'user' && $password === 'password') {
+    if($username === 'tes' && $password === '123') {
         // Simpan username ke sesi
         $_SESSION['username'] = $username;
         
@@ -104,7 +104,7 @@ if(isset($_POST['login'])) {
         <p class="error"><?php echo $error; ?></p>
     <?php } ?>
 
-    <form method="post" action="form.php">
+    <form method="post" action="login.php">
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br>
         <label for="password">Password:</label><br>
